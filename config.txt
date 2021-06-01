@@ -1,0 +1,9 @@
+config.php
+
+<?php 
+$database = 'localhost';
+$dbName = 'test'; 
+$dbUser = 'root'; 
+$dbPass = ''; 
+$mysqli = mysqli_connect($database, $dbUser, $dbPass, $dbName);    
+?> 
